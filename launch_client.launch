@@ -1,0 +1,8 @@
+<launch>
+  	<!-- log levels and verbosity -->
+  	<env name="ROSCONSOLE_CONFIG_FILE" value="/home/robopec/ExternalSources/ros_sim_time_bugtest/rosconsole.config" />
+  	
+        <node pkg="actionlib_tutorials" type="fibonacci_client" name="fibonacci_client" output="screen" />
+
+</launch>
+

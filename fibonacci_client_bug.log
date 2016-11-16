@@ -1,0 +1,106 @@
+process[fibonacci_client-1]: started with pid [8907]
+[DEBUG] [1479311014.868420967]: remap: __name => fibonacci_client
+[DEBUG] [1479311014.868470943]: remap: __log => /home/robopec/.ros/log/648f4fc2-ac10-11e6-937b-00e04c60d2c6/fibonacci_client-1.log
+[DEBUG] [1479311014.869545688]: Adding tcp socket [6] to pollset
+[DEBUG] [1479311014.869603257]: UDPROS server listening on port [36154]
+[DEBUG] [1479311014.874489519]: Publisher update for [/clock]: http://rov-UX501VW:33651/,  already have these connections: 
+[DEBUG] [1479311014.874592974]: Began asynchronous xmlrpc connection to [rov-UX501VW:33651]
+[DEBUG] [1479311014.874645539]: Started node [/fibonacci_client], pid [8907], bound on [rov-UX501VW], xmlrpc port [35009], tcpros port [48591], using [sim] time
+[DEBUG] [1479311014.874674733]: Spinning up a thread for the SimpleActionClient
+[DEBUG] [1479311014.876881066]: Publisher update for [/fibonacci/status]: http://rov-UX501VW:41489/,  already have these connections: 
+[DEBUG] [1479311014.876979968]: Began asynchronous xmlrpc connection to [rov-UX501VW:41489]
+[DEBUG] [1479311014.879180902]: Publisher update for [/fibonacci/feedback]: http://rov-UX501VW:41489/,  already have these connections: 
+[DEBUG] [1479311014.879250623]: Began asynchronous xmlrpc connection to [rov-UX501VW:41489]
+[DEBUG] [1479311014.881438497]: Publisher update for [/fibonacci/result]: http://rov-UX501VW:41489/,  already have these connections: 
+[DEBUG] [1479311014.881513613]: Began asynchronous xmlrpc connection to [rov-UX501VW:41489]
+[ INFO] [1479311014.882596169]: Waiting for action server to start.
+[DEBUG] [1479311014.882644646]: isServerConnected: Didn't receive status yet, so not connected yet
+[DEBUG] [1479311014.882666818]: isServerConnected: Didn't receive status yet, so not connected yet
+[DEBUG] [1479311015.017617755]: Accepted connection on socket [6], new socket [16]
+[DEBUG] [1479311015.017765685]: Adding tcp socket [16] to pollset
+[DEBUG] [1479311015.017803310]: TCPROS received a connection from [127.0.0.1:51990]
+[DEBUG] [1479311015.017874919]: Connection: Creating TransportSubscriberLink for topic [/fibonacci/goal] connected to [callerid=[/fibonacci_server] address=[TCPROS connection on port 48591 to [127.0.0.1:51990 on socket 16]]]                                                                                                                                                          
+[DEBUG] [1479311015.017973029]: goalConnectCallback: Adding [/fibonacci_server] to goalSubscribers
+[DEBUG] [1479311015.018039821]: Goal Subscribers (1 total)
+   - /fibonacci_server                                                                                                                                                                       
+[DEBUG] [1479311015.019066692]: isServerConnected: Didn't receive status yet, so not connected yet
+[DEBUG] [1479311015.117747572]: Accepted connection on socket [6], new socket [14]
+[DEBUG] [1479311015.117826635]: Connecting via tcpros to topic [/fibonacci/feedback] at host [rov-UX501VW:38103]
+[DEBUG] [1479311015.117853080]: Adding tcp socket [14] to pollset
+[DEBUG] [1479311015.117877955]: TCPROS received a connection from [127.0.0.1:51992]
+[DEBUG] [1479311015.117914244]: Connection: Creating TransportSubscriberLink for topic [/rosout] connected to [callerid=[/rosout] address=[TCPROS connection on port 48591 to [127.0.0.1:51992 on socket 14]]]                                                                                                                                                                            
+[DEBUG] [1479311015.117954147]: Resolved publisher host [rov-UX501VW] to [127.0.1.1] for socket [13]
+[DEBUG] [1479311015.118023917]: Adding tcp socket [13] to pollset
+[DEBUG] [1479311015.118049796]: Async connect() in progress to [rov-UX501VW:38103] on socket [13]
+[DEBUG] [1479311015.118074589]: Accepted connection on socket [6], new socket [17]
+[DEBUG] [1479311015.118105009]: Connected to publisher of topic [/fibonacci/feedback] at [rov-UX501VW:38103]
+[DEBUG] [1479311015.118135549]: Adding tcp socket [17] to pollset
+[DEBUG] [1479311015.118157958]: Connecting via tcpros to topic [/clock] at host [rov-UX501VW:47913]
+[DEBUG] [1479311015.118177634]: TCPROS received a connection from [127.0.0.1:51996]
+[DEBUG] [1479311015.118247368]: Resolved publisher host [rov-UX501VW] to [127.0.1.1] for socket [18]
+[DEBUG] [1479311015.118318606]: Adding tcp socket [18] to pollset
+[DEBUG] [1479311015.118342468]: Async connect() in progress to [rov-UX501VW:47913] on socket [18]
+[DEBUG] [1479311015.118379530]: Connected to publisher of topic [/clock] at [rov-UX501VW:47913]
+[DEBUG] [1479311015.118411106]: Connecting via tcpros to topic [/fibonacci/status] at host [rov-UX501VW:38103]
+[DEBUG] [1479311015.118504891]: Resolved publisher host [rov-UX501VW] to [127.0.1.1] for socket [19]
+[DEBUG] [1479311015.118541790]: Adding tcp socket [19] to pollset
+[DEBUG] [1479311015.118561789]: Async connect() in progress to [rov-UX501VW:38103] on socket [19]
+[DEBUG] [1479311015.118596777]: Connected to publisher of topic [/fibonacci/status] at [rov-UX501VW:38103]
+[DEBUG] [1479311015.118637534]: Connecting via tcpros to topic [/fibonacci/result] at host [rov-UX501VW:38103]
+[DEBUG] [1479311015.118716582]: Resolved publisher host [rov-UX501VW] to [127.0.1.1] for socket [20]
+[DEBUG] [1479311015.118765544]: Adding tcp socket [20] to pollset
+[DEBUG] [1479311015.118793217]: Async connect() in progress to [rov-UX501VW:38103] on socket [20]
+[DEBUG] [1479311015.118827950]: Connected to publisher of topic [/fibonacci/result] at [rov-UX501VW:38103]
+[DEBUG] [1479311015.118848530]: Connection: Creating TransportSubscriberLink for topic [/fibonacci/cancel] connected to [callerid=[/fibonacci_server] address=[TCPROS connection on port 48591 to [127.0.0.1:51996 on socket 17]]]                                                                                                                                                        
+[DEBUG] [1479311015.118974903]: cancelConnectCallback: Adding [/fibonacci_server] to cancelSubscribers
+[DEBUG] [1479311015.119001342]: cancel Subscribers (1 total)
+   - /fibonacci_server
+[DEBUG] [1479311015.119055367]: isServerConnected: Didn't receive status yet, so not connected yet
+[DEBUG] [1479311015.119151073]: Getting status over the wire.
+[DEBUG] [1479311015.119173795]: processStatus: Just got our first status message from the ActionServer at node [/fibonacci_server]
+[DEBUG] [1479311015.119224319]: isServerConnected: Server [/fibonacci_server] is fully connected
+[DEBUG] [1479311015.119267803]: isServerConnected: Server [/fibonacci_server] is fully connected
+[ INFO] [1479311015.119278977]: Action server started, sending goal.
+[DEBUG] [1479311015.119328330]: about to start initGoal()
+[DEBUG] [1479311015.119372171]: Done with initGoal()
+[DEBUG] [1479311015.150669902, 1271.800000000]: Getting status over the wire.
+[DEBUG] [1479311015.150721105, 1271.800000000]: Trying to transition to PENDING
+[DEBUG] [1479311015.150751496, 1271.800000000]: Transitioning CommState from WAITING_FOR_GOAL_ACK to PENDING
+[ INFO] [1479311015.219488921, 1271.869000000]: Action did not finish before the time out.
+[DEBUG] [1479311015.250960271, 1271.900000000]: IN DELETER
+[DEBUG] [1479311015.250986998, 1271.900000000]: About to erase CommStateMachine
+[DEBUG] [1479311015.250999579, 1271.900000000]: Done erasing CommStateMachine
+[DEBUG] [1479311015.251034971, 1271.900000000]: ActionClient: Waiting for destruction guard to clean up
+[DEBUG] [1479311015.251043518, 1271.900000000]: ActionClient: destruction guard destruct() done
+[DEBUG] [1479311015.251068608, 1271.900000000]: Subscriber on '/fibonacci/status' deregistering callbacks.
+[DEBUG] [1479311015.251989306, 1271.901000000]: Connection::drop(2)
+[DEBUG] [1479311015.252074278, 1271.901000000]: TCP socket [19] closed
+[DEBUG] [1479311015.252089165, 1271.901000000]: Connection::drop(0)
+[DEBUG] [1479311015.252106097, 1271.901000000]: Connection::drop(2)
+[DEBUG] [1479311015.252123031, 1271.901000000]: Connection::drop(2)
+[DEBUG] [1479311015.252166093, 1271.901000000]: Publisher on '/fibonacci/cancel' deregistering callbacks.
+[DEBUG] [1479311015.252856389, 1271.902000000]: Connection::drop(2)
+[DEBUG] [1479311015.252916662, 1271.902000000]: Connection to subscriber [callerid=[/fibonacci_server] address=[TCPROS connection on port 48591 to [127.0.0.1:51996 on socket 17]]] to topic [/fibonacci/cancel] dropped
+[DEBUG] [1479311015.252999579, 1271.902000000]: TCP socket [17] closed
+[DEBUG] [1479311015.253027968, 1271.902000000]: Connection::drop(0)
+[DEBUG] [1479311015.253055655, 1271.902000000]: Connection::drop(2)
+[DEBUG] [1479311015.253104246, 1271.902000000]: Publisher on '/fibonacci/goal' deregistering callbacks.
+[DEBUG] [1479311015.253138080, 1271.902000000]: Connection::drop(2)
+[DEBUG] [1479311015.253728799, 1271.902000000]: Connection::drop(2)
+[DEBUG] [1479311015.253752307, 1271.902000000]: Connection to subscriber [callerid=[/fibonacci_server] address=[TCPROS connection on port 48591 to [127.0.0.1:51990 on socket 16]]] to topic [/fibonacci/goal] dropped
+[DEBUG] [1479311015.253782020, 1271.902000000]: TCP socket [16] closed
+[DEBUG] [1479311015.253796711, 1271.902000000]: Connection::drop(0)
+[DEBUG] [1479311015.253823755, 1271.902000000]: Connection::drop(2)
+[DEBUG] [1479311015.253862923, 1271.902000000]: Subscriber on '/fibonacci/feedback' deregistering callbacks.
+[DEBUG] [1479311015.253895555, 1271.902000000]: Connection::drop(2)
+[DEBUG] [1479311015.254531997, 1271.904000000]: Connection::drop(2)
+[DEBUG] [1479311015.254580148, 1271.904000000]: TCP socket [13] closed
+[DEBUG] [1479311015.254596936, 1271.904000000]: Connection::drop(0)
+[DEBUG] [1479311015.254611227, 1271.904000000]: Connection::drop(2)
+[DEBUG] [1479311015.254628379, 1271.904000000]: Connection::drop(2)
+[DEBUG] [1479311015.254651319, 1271.904000000]: Subscriber on '/fibonacci/result' deregistering callbacks.
+[DEBUG] [1479311015.255179495, 1271.904000000]: Connection::drop(2)
+[DEBUG] [1479311015.255214601, 1271.904000000]: TCP socket [20] closed
+[DEBUG] [1479311015.255232062, 1271.904000000]: Connection::drop(0)
+[DEBUG] [1479311015.255246163, 1271.904000000]: Connection::drop(2)
+[fibonacci_client-1] process has finished cleanly

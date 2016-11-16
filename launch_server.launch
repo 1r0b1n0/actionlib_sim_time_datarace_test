@@ -1,0 +1,13 @@
+<launch>
+	
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+    
+    <node pkg="actionlib_tutorials" type="fibonacci_server" name="fibonacci_server" output="screen" />
+
+</launch>
+
